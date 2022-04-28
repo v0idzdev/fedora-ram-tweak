@@ -22,7 +22,7 @@ cd fedora-ram-tweak && chmod +x lower-ram.sh
 > earlyoom
 
 ### Standard Install + Additional RAM Reduction (Recommended for Slow PCs)
-Make sure you follow the steps outlined above. Then, use the following commands.
+The following commands will install and run both scripts.
 ```bash
 sudo -i && git clone https://github.com/matthewflegg/fedora-ram-tweak
 cd fedora-ram-tweak && chmod +x lower-ram.sh lower-ram-extra.sh
