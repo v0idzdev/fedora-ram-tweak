@@ -23,8 +23,10 @@ cd fedora-ram-tweak && chmod +x lower-ram.sh
 
 ### Standard Install + Additional RAM Reduction (Recommended for Slow PCs)
 Make sure you follow the steps outlined above. Then, use the following commands.
-```nash
-chmod +x lower-ram-extra.sh
+```bash
+sudo -i && git clone https://github.com/matthewflegg/fedora-ram-tweak
+cd fedora-ram-tweak && chmod +x lower-ram.sh lower-ram-extra.sh
+./lower-ram.sh
 ./lower-ram-extra.sh
 ```
 ##### Packages that are removed:
