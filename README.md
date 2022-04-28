@@ -1,5 +1,5 @@
 # Fedora Ram Tweak
-This script disables some background services and installs a memory optimisation tool. I've also written an additional script you can run if your PC has the
+This script disables some background services and installs an early OOM tool. I've also written an additional script you can run if your PC has the
 CPU of a toaster and the RAM capacity of a goldfish.
 
 This script removes some security services, and the GNOME software utility amongst others. Please do not use this unless you're looking for a last resort. I'm not responsible for anything that goes wrong, you know the risks.
